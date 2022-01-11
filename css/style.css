@@ -1758,7 +1758,41 @@ header.transparent .topbar{
 }
 .main-wraper-acorriger {
     background: #fafafa none repeat scroll 0 0;
-    border: 3px solid #10990c;
+    border: 3px solid #3ca9fc;
+    border-radius: 5px;
+    display: block;
+    margin-bottom: 30px;
+    padding: 15px 20px 20px;
+    position: relative;
+    width: 100%;
+    z-index: 9;
+}
+.main-wraper-ai {
+    background: #fafafa none repeat scroll 0 0;
+    border: 3px solid #ff6629;
+    border-radius: 5px;
+    display: block;
+    margin-bottom: 30px;
+    padding: 15px 20px 20px;
+    position: relative;
+    width: 100%;
+    z-index: 9;
+}
+
+.main-wraper-anoter {
+    background: #ffffff none repeat scroll 0 0;
+    border: 1px solid #e1e8ed;
+    border-radius: 5px;
+    display: block;
+    margin-bottom: 30px;
+    padding: 15px 20px 20px;
+    position: relative;
+    width: 100%;
+    z-index: 9;
+}
+.main-wraper-anoter-ai {
+    background: #ffffff none repeat scroll 0 0;
+    border: 1px solid #ff6629;
     border-radius: 5px;
     display: block;
     margin-bottom: 30px;
