@@ -117,6 +117,10 @@ svg {
     stroke: #088dcd;
 }
 
+svg.bozo {
+    fill: rgba(8, 141, 205, 1);
+
+}
 /*path.icon{
 	fill: #fff;
 }*/
