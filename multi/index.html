@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="stylesheet" href="static/vendor/bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="static/vendor/fontawesome/all.min.css" />
+  <link rel="stylesheet" href="static/css/tree.css">
+  <title>BS5 Tree</title>
+</head>
+
+<body>
+  <div class="row">
+    <div class="col-4 mx-auto">
+      <ul id="nav-tree">
+        
+        <li id="li10" data-value="li10">
+          <a>
+            Connaissance
+          </a>
+          <ul>
+           
+            <li id="li50" data-value="li50">
+              <a href="#">
+                Link 60
+              </a>
+            </li>
+            <li id="li50" data-value="li50">
+              <a href="#">
+                Link 60
+              </a>
+            </li>
+            <li id="li50" data-value="li50">
+              <a href="#">
+                Link 60
+              </a>
+            </li>
+          </ul>
+        </li>
+
+        <li id="li20" data-value="li20">
+          <a>
+            Attitudes
+          </a>
+          <ul>
+           
+            <li id="li50" data-value="li50">
+              <a href="#">
+                Link 60
+              </a>
+            </li>
+            <li id="li50" data-value="li50">
+              <a href="#">
+                Link 60
+              </a>
+            </li>
+            <li id="li50" data-value="li50">
+              <a href="#">
+                Link 60
+              </a>
+            </li>
+          </ul>
+        </li>
+
+        <li id="li20" data-value="li20">
+          <a>
+            Stratégies
+          </a>
+          <ul>
+           
+            <li id="li50" data-value="li50">
+              <a href="#">
+                Link 60
+              </a>
+            </li>
+            <li id="li50" data-value="li50">
+              <a href="#">
+                Link 60
+              </a>
+            </li>
+            <li id="li50" data-value="li50">
+              <a href="#">
+                Link 60
+              </a>
+            </li>
+          </ul>
+        </li>
+      </ul>
+</div>
+</div>
+  <script src="static/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="static/js/tree.js"></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      NavTree.createBySelector("#nav-tree", {
+        searchable: true,
+        showEmptyGroups: true,
+
+        groupOpenIconClass: "fas",
+        groupOpenIcon: "fa-chevron-down",
+
+        groupCloseIconClass: "fas",
+        groupCloseIcon: "fa-chevron-right",
+
+        linkIconClass: "fas",
+        linkIcon: "fa-link",
+
+        searchPlaceholderText: "Search",
+      });
+    });
+  </script>
+
+</body>
+
+</html>
