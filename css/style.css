@@ -3633,7 +3633,7 @@ a.download-btn {
     margin-bottom: 20px;
     padding-bottom: 10px;
     position: relative;
-    text-transform: capitalize;
+    text-transform: uppercase;
     width: 100%;
 }
 .main-title > i{color: #92929e;}
@@ -5200,6 +5200,15 @@ input[type=checkbox]{
 .course-info {
     display: inline-block;
     width: 100%;
+}
+.course-desc {
+    display: inline-block;
+    width: 100%;
+    font-size: 11px;
+    margin-bottom: 15px;
+    margin-top: 1px;
+    width: 100%;
+
 }
 .lecturez {
     color: #82828e;
