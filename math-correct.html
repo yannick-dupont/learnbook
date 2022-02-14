@@ -377,7 +377,7 @@
 			<div class="col-lg-8">
 				<div class="main-wraper">
 					<div class="feedback-form">
-						<h4 class="text-left"><i class="icofont-comment"></i> Auto-correcteur Sainte-Anne</h4>
+						<h4 class="text-left"><i class="icofont-comment"></i> Auto-correcteur mathématique/sciences Sainte-Anne</h4>
 						<form class="mt-4">
 							<fieldset class="row">
 								<!--div class="mb-4 col-lg-6">
@@ -402,9 +402,11 @@
 								</div-->
 								
 								
+								
+
 								<div class="mb-4 col-lg-12">
-									<textarea class="uk-textarea" rows="4" placeholder="Écrit ici quelques phrases à corriger."></textarea>
-								</div>
+								<img src="images/science-exercice-01.png" class="uk-textarea" width="100%" >
+							</div>
 								<!--div class="mb-4 col-lg-12">
 									<div class="form-group1 mt-30">
 										<label for="file5">Add Screenshots</label>
@@ -473,46 +475,50 @@
 
 
 								<div class="mb-0 col-lg-12 text-right">
-									<button class="button disabled" type="button" >Vérifier mon contenu</button>
-									<button class="button main" type="button" onclick="myFunction()">Vérifier mon texte</button>
+									<!--button class="button disabled" type="button" >Vérifier mon contenu</button-->
+									<button class="button main" type="button" onclick="myFunction()">Vérifier mon exercice</button>
 								</div>	
 								<br><br><br><br>
 							
 								<div class="mb-4 col-lg-12" id='reponse' style="display: none;">
-									<h4>Voici quelques corrections</h4><br>
-									
-										<span class="grammar text-error">Ces</span> vraiment spé<span class="spelling text-error">tial</span> de pouvoir avoir du 
-<span class="other text-error">feedback</span> dans ce format.
-									
-<br><br>
 
+									<h4>Voici quelques corrections</h4><br>
+									<div class="mb-4 col-lg-12">
+										<img src="images/science-exercice-01-correction.png" class="uk-textarea" width="100%" >
+									</div>
 
 
 <table style="width: 100%;">
 
 	<tbody>
 		<tr>
-			<td><i>Code de l'erreur</i></td>
+			<td><i>Code de détection</i></td>
 			<td><i>Compilation</i></td>
 			<td><i>Description</i></td>
 		  </tr>
 		  <tr>
 			
-			<td><button  class="button outline-success">G1</button></td>
+			<td><button  class="button outline-primary">Formule</button></td>
 			<td>+1</td>
-			<td>Accord du verbe avec son sujet</td>
+			<td>Formule correctement énoncée</td>
 		  </tr>
 	  <tr>
 		
-		<td><button  class="button outline-danger">O1</button></td>
-		<td>+1</td>
-		<td>Orthographe d’usage</td>
+		<td><button  class="button outline-danger">Calculs</button></td>
+		<td>+4</td>
+		<td>Calculs correctement effectués</td>
 	  </tr>
 	  <tr>
 		
-		<td><button  class="button outline-primary">V3</button></td>
+		<td><button  class="button outline-success">Réponse</button></td>
 		<td>+1</td>
-		<td>Niveau de langue inapproprié </td>
+		<td>Réponse finale correcte </td>
+	  </tr>
+	  <tr>
+		
+		<td></td>
+		<td>+2</td>
+		<td>Total de la démarche correcte </td>
 	  </tr>
 	</tbody>
 	</table>
@@ -540,21 +546,16 @@
 
 	  <script>
 		const labels = [
-		'S1','S2','S3','S4','S5','S6','S7',
-		'P1','P2','P3','P4','P5','P6',
-		'G1','G2','G3','G4','G5','G6','G7',
-		'V1','V2','V3','V4',
-		'O1','O2','O3','O4','O5','O6',
-		'C1','C2','C3','C4','C5'
+		'Formule','Calculs','Réponse','Global',
 		];
 	  
 		const data = {
 		  labels: labels,
 		  datasets: [{
-			label: 'SPAVOC',
+			label: 'Démarche de résolution de problèmes',
 			backgroundColor: 'rgba(8, 141, 205,.6)',    
 			borderColor: 'rgb(255, 99, 132)',
-			data: [6, 0,0,0, 10, 40,0,0,0,0,30,0,20, 2, 40, 10, 1, 0,80, ],
+			data: [75, 60,60,60 ],
 		  }]
 		};
 	  

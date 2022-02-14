@@ -377,7 +377,7 @@
 			<div class="col-lg-8">
 				<div class="main-wraper">
 					<div class="feedback-form">
-						<h4 class="text-left"><i class="icofont-comment"></i> Auto-correcteur Sainte-Anne</h4>
+						<h4 class="text-left"><i class="icofont-comment"></i> Auto-évaluation Sainte-Anne</h4>
 						<form class="mt-4">
 							<fieldset class="row">
 								<!--div class="mb-4 col-lg-6">
@@ -401,9 +401,49 @@
 									<input class="uk-input" type="text" placeholder="University">
 								</div-->
 								
+									<div class="mb-4 col-lg-12">
+										<ul class="post-categoroes">
+											<button class="main-btn" type="button" onclick="myFunction('reponse1')">Créativité</button>
+											<button class="main-btn" type="button" onclick="myFunction('reponse2')">Comm</button>
+											<button class="main-btn" type="button" onclick="myFunction('reponse2')">Créativité</button>
+											<button class="main-btn" type="button" onclick="myFunction('reponse2')">Pensée Critique</button>
+											<button class="main-btn" type="button" onclick="myFunction('reponse2')">Courage</button>
+											<button class="main-btn" type="button" onclick="myFunction('reponse2')">Collaboration</button>
+											
+
+											<!--li><i class="icofont-video-cam"></i> Go Live</li>
+										<li><i class="icofont-sale-discount"></i> Post Online Course</li>
+										<li><i class="icofont-read-book"></i> Post A Book</li>
+										<li><i class="icofont-globe"></i> Post an Ad</li-->
+										</ul>
+									
+									</div>
 								
+
+<script  src="script-scroll.js"></script>
+
+									<div class="mb-4 col-lg-12" id='reponse1' style="display: none;">
+
+										
+										Je contribue au climat favorable d’une équipe en étant positif et à l’écoute de mes coéquipiers. <br>
+										<div class="length range__slider" data-min="4" data-max="32">
+											<input id="slider" type="range" min="4" max="32" value="16" />
+										</div>
+									
+										Je participe activement en donnant des idées et en partageant mes opinions. <br>
+									
+										<div class="length range__slider" data-min="4" data-max="32">
+											<input id="slider" type="range" min="4" max="32" value="16" />
+										</div>
+									
+									  
+										
+									
+									</div>
+									
+									<div class="mb-4 col-lg-12" id='reponse2' style="display: none;">banane</div>
 								<div class="mb-4 col-lg-12">
-									<textarea class="uk-textarea" rows="4" placeholder="Écrit ici quelques phrases à corriger."></textarea>
+									<textarea class="uk-textarea" rows="4" placeholder="Écrit ici quelques phrases décrivant ta démarche"></textarea>
 								</div>
 								<!--div class="mb-4 col-lg-12">
 									<div class="form-group1 mt-30">
@@ -434,9 +474,8 @@
 								
 								
 								<script>
-									
-								function myFunction() {
-								  var x = document.getElementById("reponse");
+								function myFunction(value) {
+								  var x = document.getElementById(value);
 								  if (x.style.display === "none") {
 									x.style.display = "block";
 								  } else {
@@ -516,24 +555,12 @@
 	  </tr>
 	</tbody>
 	</table>
-	<br><br><br><br>
-	<h4>Ton tableau de bord</h4>
-	<br>
 
-	<div class="uk-margin">
-		<select class="uk-select">
-			<option>Pourcentages (%) des 30 derniers jours</option>
-			<option>Pourcentages (%) des 60 derniers jours</option>
-			<option>Pourcentages (%) l'an passé</option>
-			
-		</select>
-	</div>
-
-
-
+	<br><br><br>
+	<b>Pourcentages (%) des 30 derniers jours</b>
 
 	<div>
-		<canvas id="myChart" width="400" height="180"></canvas>
+		<canvas id="myChart" width="400" height="100"></canvas>
 	  </div>
 	  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
  
