@@ -1,135 +1,227 @@
-
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
-<head>
-<title></title>
 
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<head>
+	<title></title>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 
 </head>
 
 <style>
-
-body {
-
-	background-image: url('grunge_patterns.jpg');
-
 	
-}
 
-.box {
-	border-radius: 3px;
-	background: #3f8bc8; margin: auto; padding: 12px;
-}
+	::-webkit-input-placeholder {
+		color: #3f8bc8;
+		text-align: center;
+		font-size: 12px;
+		font-family: 'Roboto', sans-serif;
+
+
+	}
+
+	::-moz-placeholder {
+		color: #3f8bc8;
+		text-align: center;
+	}
+
+	:-ms-input-placeholder {
+		color: #3f8bc8;
+		text-align: center;
+
+	}
+
+	input {
+		border: 1px solid rgba(0, 0, 0, 0.2);
+		border-radius: 30px;
+		padding: 10px 10px 10px 10px;
+		width: 40%;
+		text-align: center;
+	}
+
+	button {
+		background: #088dcd;
+		border: medium none;
+		border-radius: 6px;
+		color: #fff;
+		display: inline-block;
+		font-size: 13.5px;
+		font-weight: 400;
+		padding: 8px 18px;
+		text-transform: capitalize;
+		transition: all 0.2s linear 0s;
+
+	}
+
+	.main-wraper,
+	aside .widget {
+		background: #fafafa none repeat scroll 0 0;
+		border: 1px solid #e1e8ed;
+		text-align: center;
+		align-content: center;
+		border-radius: 5px;
+		display: block;
+		margin-bottom: 30px;
+		padding: 15px 20px 20px 15px;
+		position: absolute;
+		width: 500px;
+	
+	}
+
+	.col,
+	.col-1,
+	.col-10,
+	.col-11,
+	.col-12,
+	.col-2,
+	.col-3,
+	.col-4,
+	.col-5,
+	.col-6,
+	.col-7,
+	.col-8,
+	.col-9,
+	.col-auto,
+	.col-lg,
+	.col-lg-1,
+	.col-lg-10,
+	.col-lg-11,
+	.col-lg-12,
+	.col-lg-2,
+	.col-lg-3,
+	.col-lg-4,
+	.col-lg-5,
+	.col-lg-6,
+	.col-lg-7,
+	.col-lg-8,
+	.col-lg-9,
+	.col-lg-auto,
+	.col-md,
+	.col-md-1,
+	.col-md-10,
+	.col-md-11,
+	.col-md-12,
+	.col-md-2,
+	.col-md-3,
+	.col-md-4,
+	.col-md-5,
+	.col-md-6,
+	.col-md-7,
+	.col-md-8,
+	.col-md-9,
+	.col-md-auto,
+	.col-sm,
+	.col-sm-1,
+	.col-sm-10,
+	.col-sm-11,
+	.col-sm-12,
+	.col-sm-2,
+	.col-sm-3,
+	.col-sm-4,
+	.col-sm-5,
+	.col-sm-6,
+	.col-sm-7,
+	.col-sm-8,
+	.col-sm-9,
+	.col-sm-auto,
+	.col-xl,
+	.col-xl-1,
+	.col-xl-10,
+	.col-xl-11,
+	.col-xl-12,
+	.col-xl-2,
+	.col-xl-3,
+	.col-xl-4,
+	.col-xl-5,
+	.col-xl-6,
+	.col-xl-7,
+	.col-xl-8,
+	.col-xl-9,
+	.col-xl-auto {
+		align-content: center;
+		text-align: center;
+		
+	
+
+		position: absolute;
+  width: 500px;
+  height: 200px;
+
+  top: 50%;
+  left: 50%;
+  margin: -100px 0 0 -250px;
   
-.lightbox {
-	zoom: 1.5;
-	position: fixed;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-	background: rgba(96, 183, 255, 0.8);
-	text-align: center;
-	margin: auto;
+	
+	}
 
-}
-
-div.horizontal {
-	display: flex;
-	justify-content: center;
-	height: 100%;
-}
-
-div.vertical {
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	width: 100%;
-}
-
-::-webkit-input-placeholder {
-   color: #3f8bc8;
-   text-align: center;
-}
-
-::-moz-placeholder {
-   color: #3f8bc8;
-   text-align: center;
-}
-
-:-ms-input-placeholder {
-   color: #3f8bc8;
-   text-align: center;
-}
 
 </style>
 
 <body>
+	<br><br><br><br><br><br>
+		<div class="col-lg-12 col-md-12">
+			<div id="loginbox" class="main-wraper">
 
-	<div id="loginbox" class="lightbox" >
-		<div class="horizontal">
-			<div class="vertical">
-				<div class="box">
-					<input style="margin: 16px; text-align: center;" id="password" type="password" placeholder="Mot de passe" /> <br />
-					<button id="loginbutton" type="button">Entrez</button>
-					<p id="wrongPassword" style="display: none">Mauvais mot de passe</p>
-				</div>
+				<input id="password" type="password"  /> <br /><br />
+
+				<button id="loginbutton" type="button">Entrez</button>
+				<p id="wrongPassword" style="display: none">Mauvais mot de passe</p>
+
 			</div>
 		</div>
 	</div>
 
-
-
 	<script type="text/javascript" src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
 
 
-	 <script type="text/javascript" src="https://rawcdn.githack.com/chrisveness/crypto/7067ee62f18c76dd4a9d372a00e647205460b62b/sha1.js"></script>
+	<script type="text/javascript"
+		src="https://rawcdn.githack.com/chrisveness/crypto/7067ee62f18c76dd4a9d372a00e647205460b62b/sha1.js"></script>
 
 	<script type="text/javascript">
-	"use strict";
+		"use strict";
 
 
-	function loadPage(pwd) {
+		function loadPage(pwd) {
 
-		var hash= pwd;
-		hash= Sha1.hash(pwd);
-		var url= hash + "/index.html";
+			var hash = pwd;
+			hash = Sha1.hash(pwd);
+			var url = hash + "/index.html";
 
-		$.ajax({
-			url : url,
-			dataType : "html",
-			success : function(data) {
+			$.ajax({
+				url: url,
+				dataType: "html",
+				success: function (data) {
 
-				window.location= url;
+					window.location = url;
 
-			},
-			error : function(xhr, ajaxOptions, thrownError) {
+				},
+				error: function (xhr, ajaxOptions, thrownError) {
 
 
-				parent.location.hash= hash;
+					parent.location.hash = hash;
 
-				//$("#wrongPassword").show();
-				$("#password").attr("placeholder","wrong password");
-				$("#password").val("");
+					//$("#wrongPassword").show();
+					$("#password").attr("placeholder", "Mauvais mot de passe");
+					$("#password").val("");
+				}
+			});
+		}
+
+
+		$("#loginbutton").on("click", function () {
+			loadPage($("#password").val());
+		});
+		$("#password").keypress(function (e) {
+			if (e.which == 13) {
+
+				loadPage($("#password").val());
 			}
 		});
-	}
-
-
-	$("#loginbutton").on("click", function() {
-		loadPage($("#password").val());
-	});
-	$("#password").keypress(function(e) {
-		if (e.which == 13) {
-
-			loadPage($("#password").val());
-		}
-	});
-	$("#password").focus();
+		$("#password").focus();
 
 	</script>
 
 </body>
+
 </html>
