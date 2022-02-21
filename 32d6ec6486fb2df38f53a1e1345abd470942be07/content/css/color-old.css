@@ -108,13 +108,13 @@ a.invite,
 .big-deals > a,
 .prod-detail > ul.item-info > li > a
 {
-	color: #F3C22B;	
+	color: #088dcd;	
 }
 
 
 svg {
-    fill: #faf2dc;
-    stroke: #F3C22B;
+    fill: rgba(8, 141, 205, 0.09);
+    stroke: #088dcd;
 }
 
 svg.bozo {
@@ -177,11 +177,11 @@ table.table-striped tbody tr td a.button:hover,
 .nav.nav-tabs.walllt-btn > li > a.active,
 .card-poup-meta > button
 {
-	background: #F3C22B;
+	background: #088dcd;
 }
 
 .stroke-solid {
-	fill: #F3C22B;
+	fill: #088dcd;
 }
 
 
@@ -222,15 +222,15 @@ ul.chatting-area li > figure img,
 .add-currency:hover,
 .walt-balance > a
 {
-	border-color: #F3C22B;	
+	border-color: #088dcd;	
 }
 .user-tabs .nav-tabs > li > a.active,
 .checkbox label:after,
 .light-bg .uk-tab > li a.active{
-	border-bottom-color: #F3C22B;
+	border-bottom-color: #088dcd;
 }
 .checkbox label:after{
-	border-left-color: #F3C22B;
+	border-left-color: #088dcd;
 }
 
 
