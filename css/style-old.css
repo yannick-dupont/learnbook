@@ -997,7 +997,7 @@ a.date {
     width: 100%;
 }
 .funfact-counter > i {
-    background: rgba(8, 141, 205, 0.6) none repeat scroll 0 0;
+    background: #FE4C2C none repeat scroll 0 0;
     border: 2px solid;
     border-radius: 100%;
     color: #fff;
@@ -1595,7 +1595,7 @@ header.transparent .topbar{
 	transition: all 0.2s linear 0s;
 }
 .measure.right a:hover{
-	background: rgba(8, 141, 205, 0.6) none repeat scroll 0 0;
+	background: #FE4C2C none repeat scroll 0 0;
 	color: #fff;
 }
 /*--- timeline page ---*/
@@ -4404,7 +4404,7 @@ a.invite:hover,
 }
 .pagination > li > a {
     background: #deebf3 none repeat scroll 0 0;
-    border: 1px solid #c9d6de;
+    border: 1px solid #FE4C2C;
     border-radius: 100%;
     display: inline-block;
     height: 35px;
@@ -4416,7 +4416,7 @@ a.invite:hover,
     transform: scale(1.1);
 }
 .pagination > li > a.active {
-    background: rgba(8, 141, 205, 0.6) none repeat scroll 0 0;
+    background: #FE4C2C none repeat scroll 0 0;
     border-color: #088dcd;
     color: #fff;
 }
@@ -4507,7 +4507,7 @@ a.invite:hover,
 }
 .category > li a {
     background: #deebf3 none repeat scroll 0 0;
-    border: 1px solid #c9d6de;
+    border: 1px solid #FE4C2C;
     border-radius: 30px;
     display: inline-block;
     font-size: 13px;
@@ -6819,7 +6819,7 @@ input:checked + .switch:active::before {
 }
 .help-topic > span {
     background: #deebf3 none repeat scroll 0 0;
-    border: 1px solid #c9d6de;
+    border: 1px solid #FE4C2C;
     border-radius: 100%;
     display: inline-block;
     line-height: 50px;
@@ -13827,7 +13827,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#007db9e8', e
     width: calc(100% - (70px));
     height: 2px;
     border-radius: 5px;
-    background: rgba(8, 141, 205, 0.6);
+    background: #FE4C2C;
     outline: none;
     padding: 0;
     margin: 0;
@@ -13838,12 +13838,12 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#007db9e8', e
     width: 20px;
     height: 20px;
     border-radius: 50%;
-    background: rgba(8, 141, 205, 0.6);
+    background: #FE4C2C;
     cursor: pointer;
     transition: all 0.15s ease-in-out;
   }
   #slider::-webkit-slider-thumb:hover {
-    background: rgba(8, 141, 205, 0.6);
+    background: #FE4C2C;
     transform: scale(1.2);
   }
   #slider::-moz-range-thumb {
@@ -13851,7 +13851,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#007db9e8', e
     height: 20px;
     border: 0;
     border-radius: 50%;
-    background: rgba(8, 141, 205, 0.6);
+    background: #FE4C2C;
     cursor: pointer;
     transition: background 0.15s ease-in-out;
   }
