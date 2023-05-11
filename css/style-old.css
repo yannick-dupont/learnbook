@@ -1758,7 +1758,7 @@ header.transparent .topbar{
 	color: #fff;
 }
 .stars > li {
-    color: #fec42d;
+    color: #fe4c1c;
     font-size: 16px;
 }
 /*--- user post ---*/
@@ -1842,9 +1842,9 @@ header.transparent .topbar{
 	border: 1px solid #cacaca;
 }
 .friend-info > figure > i {
-    border: 2px solid #fec42d;
+    border: 2px solid #fe4c1c;
     border-radius: 100%;
-    color: #fec42d;
+    color: #fe4c1c;
     display: inline-block;
     font-size: 20px;
     height: 40px;
@@ -4618,7 +4618,7 @@ a.invite:hover,
     width: 100%;
 }
 .full-book > figure > span {
-    background: #fec42d none repeat scroll 0 0;
+    background: #fe4c1c none repeat scroll 0 0;
     color: #ffffff;
     font-size: 12px;
     left: -5px;
@@ -4673,7 +4673,7 @@ a.invite:hover,
     max-width: 45px;
 }
 .comment-titles > ins {
-    background: #fec42d none repeat scroll 0 0;
+    background: #fe4c1c none repeat scroll 0 0;
     border-radius: 30px;
     color: #ffffff;
     float: right;
@@ -5141,7 +5141,7 @@ input[type=checkbox]{
     top: 20px;
 }
 .course > figure .rate-result {
-    background: #fec42d none repeat scroll 0 0;
+    background: #fe4c1c none repeat scroll 0 0;
     border-radius: 30px;
     bottom: 15px;
     color: #fff;
@@ -5384,7 +5384,7 @@ input[type=checkbox]{
     width: 100%;
 }
 .rating > span {
-    color: #fec42d;
+    color: #fe4c1c;
     font-size: 14px;
 }
 .inner-column > span {
@@ -5413,11 +5413,11 @@ input[type=checkbox]{
     padding-left: 0;
 }
 .rating-stars > li {
-    color: #fec42d;
+    color: #fe4c1c;
     display: inline-block;
 }
 .rating-stars > li > span {
-    background: #fec42d none repeat scroll 0 0;
+    background: #fe4c1c none repeat scroll 0 0;
     border-radius: 4px;
     color: #fff;
     font-size: 12px;
